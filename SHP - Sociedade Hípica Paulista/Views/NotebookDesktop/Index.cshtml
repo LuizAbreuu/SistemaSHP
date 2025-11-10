@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Notebook_DesktopModel>
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-5">
+        <h1>Notebook's & Desktop's</h1>
+        <a class="btn btn-success mx-2" asp-controller="NotebookDesktop" asp-action="Exportar"><i class="bi bi-file-earmark-plus mx-2"></i>Exportar p/ Excel</a>
+        <a class="btn btn-success mx-2" asp-controller="NotebookDesktop" asp-action="Cadastrar"><i class="bi bi-file-earmark-plus mx-2"></i>Cadastrar novo equipamento</a>
+    </div>
+
+
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success text-dark" role="alert">
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+    
+
+
+
+    <div class="table-responsive">
+        <table id="NotebookeDesktop" class="table table-dark table-striped-columns mt-5">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Responsável instalação</th>
+                    <th scope="col">Usuário</th>
+                    <th scope="col">Departamento</th>
+                    <th scope="col">Procedencia</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Processador</th>
+                    <th scope="col">Memoria</th>
+                    <th scope="col">Espaço/Tipo disco</th>
+                    <th scope="col">Sistema Operacional</th>
+                    <th scope="col">Número de Série</th>
+                    <th scope="col">Data Instalação</th>
+                    <th scope="col">Data Inventário</th>
+                    <th scope="col">Log Equipamento</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @if (Model != null)
+                {
+                    @foreach (var NotebookDesktop in Model)
+                    {
+                        <tr>
+                            <th scope="row">@NotebookDesktop.Id</th>
+                            <td>@NotebookDesktop.Nome</td>
+                            <td>@NotebookDesktop.Tipo</td>
+                            <td>@NotebookDesktop.ResponsavelInstalacao</td>
+                            <td>@NotebookDesktop.Usuario</td>
+                            <td>@NotebookDesktop.Departamento</td>
+                            <td>@NotebookDesktop.Procedencia</td>
+                            <td>@NotebookDesktop.Marca</td>
+                            <td>@NotebookDesktop.Modelo</td>
+                            <td>@NotebookDesktop.Processador</td>
+                            <td>@NotebookDesktop.Memoria</td>
+                            <td>@NotebookDesktop.Espaco_TipoDisco</td>
+                            <td>@NotebookDesktop.SistemaOperacional</td>
+                            <td>@NotebookDesktop.NumeroSerie</td>
+                            <td>@NotebookDesktop.DataInstalacao.ToString("dd/MM/yyyy")</td>
+                            <td>@NotebookDesktop.DataInventario.ToString("dd/MM/yyyy")</td>
+                            <td>@NotebookDesktop.LogEquipamento</td>
+                            <td>
+                                <a asp-controller="NotebookDesktop" asp-action="Editar" asp-route-id="@NotebookDesktop.Id" class="btn btn-warning mx-2"><i class="bi bi-pencil-square mx-2"></i>Editar</a>
+                                <a asp-controller="NotebookDesktop" asp-action="Excluir" asp-route-id="@NotebookDesktop.Id" class="btn btn-danger mx-2"><i class="bi bi-trash-fill mx-2"></i>Excluir</a>
+                            </td>
+                        </tr>
+                    }
+
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>

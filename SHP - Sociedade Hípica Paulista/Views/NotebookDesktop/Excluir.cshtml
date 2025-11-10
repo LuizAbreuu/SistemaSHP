@@ -1,0 +1,139 @@
+﻿@model Notebook_DesktopModel
+
+@{
+    ViewData["Title"] = "Excluir equipamento";
+}
+
+<div class="container bg-dark p-5 rounded-5">
+
+    <div class="mb-5 text-center">
+        <h1 class="text-light">Exclusão de equipamento</h1>
+    </div>
+
+    <form method="post" asp-controller="NotebookDesktop" asp-action="Excluir">
+
+        <input type="hidden" asp-for="Id" />
+
+        <h2 class="text-light">Tem certeza que deseja excluir o equipamento?</h2>
+
+        <div class="mb-3">
+            <label for="Nome" class="form-label text-white">Nome:</label>
+            <input type="text" class="form-control" asp-for="Nome" id="Nome" aria-describedby="Nome" disabled>
+            <div id="name" class="form-text">Coloque o nome do equipamento</div>
+            <span class="text-danger" asp-validation-for="Nome"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Tipo" class="form-label text-white">Tipo:</label>
+            <input type="text" class="form-control" asp-for="Tipo" id="tipo" disabled>
+            <div id="tipo" class="form-text">Coloque o tipo do equipamento ( desktop ou notebook )</div>
+            <span class="text-danger" asp-validation-for="Tipo"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="ResponsavelInstalacao" class="form-label text-white">Responsavel Instalação: </label>
+            <input type="text" class="form-control" asp-for="ResponsavelInstalacao" id="responsavelinstalacao" disabled>
+            <div id="name" class="form-text">Coloque o nome do responsavel pela instalação</div>
+            <span class="text-danger" asp-validation-for="ResponsavelInstalacao"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Usuario" class="form-label text-white">Usuário:</label>
+            <input type="text" class="form-control" asp-for="Usuario" id="usuario" aria-describedby="Nome" disabled>
+            <div id="usuario" class="form-text">Coloque o nome do novo usuário</div>
+            <span class="text-danger" asp-validation-for="Usuario"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Departamento" class="form-label text-white">Departamento:</label> 
+            <input type="text" class="form-control" asp-for="Departamento" id="Departamento" aria-describedby="Nome" disabled>
+            <div id="departamento" class="form-text">Coloque o nome do departamento</div>
+            <span class="text-danger" asp-validation-for="Departamento"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Procedencia" class="form-label text-white">Procedencia:</label>
+            <input type="text" class="form-control" asp-for="Procedencia" id="procedencia" aria-describedby="Nome" disabled>
+            <div id="procedencia" class="form-text">Coloque o nome do ultimo usuário</div>
+            <span class="text-danger" asp-validation-for="Procedencia"></span>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="Marca" class="form-label text-white">Marca:</label>
+            <input type="text" class="form-control" asp-for="Marca" id="marca" aria-describedby="Nome" disabled>
+            <div id="marca" class="form-text">Coloque o nome da marca do equipamento</div>
+            <span class="text-danger" asp-validation-for="Marca"></span>
+
+        </div>
+
+        <div class="mb-3">
+            <label for="Modelo" class="form-label text-white">Modelo:</label>
+            <input type="text" class="form-control" asp-for="Modelo" id="modelo" aria-describedby="Nome" disabled>
+            <div id="modelo" class="form-text">Coloque o nome do modelo do equipamento</div>
+            <span class="text-danger" asp-validation-for="Modelo"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Processador" class="form-label text-white">Processador:</label>
+            <input type="text" class="form-control" asp-for="Processador" id="processador" aria-describedby="Nome" disabled>
+            <div id="processador" class="form-text">Coloque o nome do processador e sua versão/geração</div>
+            <span class="text-danger" asp-validation-for="Processador"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Memoria" class="form-label text-white">Memoria:</label>
+            <input type="text" class="form-control" asp-for="Memoria" id="memoria" aria-describedby="Nome" disabled>
+            <div id="memoria" class="form-text">Coloque a quantidade de memoria ram</div>
+            <span class="text-danger" asp-validation-for="Memoria"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Espaco_TipoDisco" class="form-label text-white">Espaço/tipo disco:</label>
+            <input type="text" class="form-control" asp-for="Espaco_TipoDisco" id="Espaco_TipoDisco" aria-describedby="Nome" disabled>
+            <div id="Espaco_TipoDisco" class="form-text">Coloque a quantidade de espaço no disco rigido ou ssd</div>
+            <span class="text-danger" asp-validation-for="Espaco_TipoDisco"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="SistemaOperacional" class="form-label text-white">Sistema operacional:</label>
+            <input type="text" class="form-control" asp-for="SistemaOperacional" id="SistemaOperacional" aria-describedby="Nome" disabled>
+            <div id="SistemaOperacional" class="form-text">Coloque o nome do sistema operacional instalado</div>
+            <span class="text-danger" asp-validation-for="SistemaOperacional"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="NumeroSerie" class="form-label text-white">Numero de série:</label>
+            <input type="text" class="form-control" asp-for="NumeroSerie" id="NumeroSerie" aria-describedby="Nome" disabled>
+            <div id="NumeroSerie" class="form-text">Coloque o número de série do equipamento</div>
+            <span class="text-danger" asp-validation-for="NumeroSerie"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="DataInstalacao" class="form-label text-white">Data de instalação:</label>
+            <input type="date" class="form-control" asp-for="DataInstalacao" id="DataInstalacao" aria-describedby="Nome" disabled>
+            <div id="DataInstalacao" class="form-text">Coloque a data de instalação</div>
+            <span class="text-danger" asp-validation-for="DataInstalacao"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="DataInventario" class="form-label text-white">Data do inventário:</label>
+            <input type="date" class="form-control" asp-for="DataInventario" id="DataInventario" aria-describedby="Nome" disabled>
+            <div id="DataInventario" class="form-text">Coloque a data de inventário</div>
+            <span class="text-danger" asp-validation-for="DataInventario"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="LogEquipamento" class="form-label text-white">Log do equipamento:</label>
+            <input type="text" class="form-control" asp-for="LogEquipamento" id="LogEquipamento" aria-describedby="Nome" disabled>
+            <div id="LogEquipamento" class="form-text">Coloque o que foi realizado no equipamento</div>
+            <span class="text-danger" asp-validation-for="LogEquipamento"></span>
+        </div>
+
+        <div class="d-flex gap-5 mt-5">
+            <button type="submit" class="btn btn-danger w-50">Excluir</button>
+            <a class="btn btn-primary w-50" asp-controller="NotebookDesktop" asp-action="Index">Voltar</a>
+        </div>
+
+    </form>
+</div>
