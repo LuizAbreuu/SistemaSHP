@@ -2,7 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using SHP___Sociedade_Hípica_Paulista.Data;
 using SHP___Sociedade_Hípica_Paulista.Services.LoginService;
+using SHP___Sociedade_Hípica_Paulista.Services.NotebookDesktopService;
 using SHP___Sociedade_Hípica_Paulista.Services.SenhaService;
+using SHP___Sociedade_Hípica_Paulista.Services.SessaoService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,10 +15,22 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ILoginInterface, LoginService>();
 builder.Services.AddScoped<ISenhaInterface, SenhaService>();
+builder.Services.AddScoped<ISessaoInterface, SessaoService>();
+builder.Services.AddScoped<INotebookDesktopInterface, NotebookDesktopService>();
+
+
+builder.Services.AddSession(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -33,8 +47,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseSession();
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Login}/{action=Login}/{id?}");
 
 app.Run();

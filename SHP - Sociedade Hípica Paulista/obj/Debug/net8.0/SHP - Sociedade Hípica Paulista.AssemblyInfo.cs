@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SHP - Sociedade Hípica Paulista")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b171ff21ed173315f55e71f0c169d856190211e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SHP - Sociedade Hípica Paulista")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SHP - Sociedade Hípica Paulista")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

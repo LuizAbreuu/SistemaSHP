@@ -13,7 +13,7 @@ namespace SHP___Sociedade_Hípica_Paulista.Models
         [Required(ErrorMessage = "preenchimento obrigatório")]
         public string ResponsavelInstalacao { get; set; }
         [Required(ErrorMessage = "preenchimento obrigatório")]
-        public string Usuario { get; set; }
+        public string? Usuario { get; set; }
         [Required(ErrorMessage = "preenchimento obrigatório")]
         public string Departamento { get; set; }
         [Required(ErrorMessage = "preenchimento obrigatório")]

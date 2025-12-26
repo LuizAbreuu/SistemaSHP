@@ -4,6 +4,17 @@
     ViewData["Title"] = "Editar equipamento";
 }
 
+@{
+    Layout = "_LayoutDeslogada";
+}
+
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success text-dark" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
 <div class="container bg-dark p-5 rounded-5">
 
     <div class="mb-5 text-center">

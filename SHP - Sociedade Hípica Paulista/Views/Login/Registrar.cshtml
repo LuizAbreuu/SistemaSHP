@@ -1,6 +1,9 @@
 ﻿@using SHP___Sociedade_Hípica_Paulista.Dto
 @model UsuarioRegisterDto
 
+@{
+    Layout = "_LayoutDeslogada";
+}
 
 @if (TempData["MensagemSucesso"] != null)
 {
@@ -41,7 +44,7 @@
 
         <div class="d-flex justify-content-center">
             <button type="submit" class="btn btn-primary w-25 mx-2">Cadastrar</button>
-            <a asp-action="Index" asp-controller="Login" class="btn w-25">Voltar</a>
+            <a asp-action="Login" asp-controller="Login" class="btn w-25">Voltar</a>
         </div>
 
     </form>

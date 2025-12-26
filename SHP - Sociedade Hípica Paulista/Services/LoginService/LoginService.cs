@@ -2,6 +2,7 @@
 using SHP___Sociedade_Hípica_Paulista.Dto;
 using SHP___Sociedade_Hípica_Paulista.Models;
 using SHP___Sociedade_Hípica_Paulista.Services.SenhaService;
+using SHP___Sociedade_Hípica_Paulista.Services.SessaoService;
 
 namespace SHP___Sociedade_Hípica_Paulista.Services.LoginService
 {
@@ -9,11 +10,48 @@ namespace SHP___Sociedade_Hípica_Paulista.Services.LoginService
     {
 
         private readonly ApplicationDbContext _context;
-        private readonly ISenhaInterface _senhaService;
-        public LoginService(ApplicationDbContext context, ISenhaInterface SenhaService)
+        private readonly ISenhaInterface _senhaInterface;
+        private readonly ISessaoInterface _sessaoInterface;
+        public LoginService(ApplicationDbContext context, ISenhaInterface senhaInterface, ISessaoInterface sessaoInterface)
         {
             _context = context;
-            _senhaService = SenhaService;
+            _senhaInterface = senhaInterface;
+            _sessaoInterface = sessaoInterface;
+        }
+
+        public async Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDto usuarioLoginDto)
+        {
+
+            ResponseModel<UsuarioModel> response = new ResponseModel<UsuarioModel>();
+
+            try
+            {
+                var usuario = _context.Usuarios.FirstOrDefault(x => x.Email == usuarioLoginDto.Email);
+                if (usuario == null)
+                {
+                    response.Mensagem = "Usuário não encontrado!";
+                    response.Status = false;
+                    return response;
+                }
+                if (!_senhaInterface.VerificaSenha(usuarioLoginDto.Senha, usuario.SenhaHash, usuario.SenhaSalt))
+                {
+                    response.Mensagem = "Usuário não encontrado!";
+                    response.Status = false;
+                    return response;
+                }
+
+                //Criar sessão
+                _sessaoInterface.CriarSessao(usuario);
+
+                response.Mensagem = "Usuário logado com sucesso!";
+                return response;
+            }
+            catch (Exception ex)
+            {
+                response.Mensagem = ex.Message;
+                response.Status = false;
+                return response;
+            }
         }
 
         public async Task<ResponseModel<UsuarioModel>> RegistrarUsuario(UsuarioRegisterDto usuarioRegisterDto)
@@ -30,7 +68,7 @@ namespace SHP___Sociedade_Hípica_Paulista.Services.LoginService
                     return response;
                 }
 
-                _senhaService.CriarSenhaHash(usuarioRegisterDto.Senha, out byte[] senhaHash, out byte[] senhaSalt);
+                _senhaInterface.CriarSenhaHash(usuarioRegisterDto.Senha, out byte[] senhaHash, out byte[] senhaSalt);
 
                 var usuario = new UsuarioModel()
                 {

@@ -177,3 +177,5 @@ D:\SHP - Sociedade Hípica Paulista\SHP - Sociedade Hípica Paulista\bin\Debug\n
 D:\SHP - Sociedade Hípica Paulista\SHP - Sociedade Hípica Paulista\bin\Debug\net8.0\RBush.dll
 D:\SHP - Sociedade Hípica Paulista\SHP - Sociedade Hípica Paulista\bin\Debug\net8.0\SixLabors.Fonts.dll
 D:\SHP - Sociedade Hípica Paulista\SHP - Sociedade Hípica Paulista\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\SHP - Sociedade Hípica Paulista\SHP - Sociedade Hípica Paulista\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\SHP - Sociedade Hípica Paulista\SHP - Sociedade Hípica Paulista\obj\Debug\net8.0\SHP - Sociedade Hípica Paulista.sourcelink.json

@@ -7,6 +7,6 @@ namespace SHP___Sociedade_Hípica_Paulista.Services.LoginService
     {
 
         Task<ResponseModel<UsuarioModel>> RegistrarUsuario(UsuarioRegisterDto usuarioRegisterDto);
-
+        Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDto usuarioLoginDto);
     }
 }

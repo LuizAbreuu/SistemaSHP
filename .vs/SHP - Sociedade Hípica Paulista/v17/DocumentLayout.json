@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\SHP - Sociedade H\u00EDpica Paulista\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{18DCB303-582F-4BB0-887F-68D7FFBD35FE}|SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista.csproj|d:\\shp - sociedade h\u00EDpica paulista\\shp - sociedade h\u00EDpica paulista\\views\\login\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{18DCB303-582F-4BB0-887F-68D7FFBD35FE}|SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista.csproj|solutionrelative:shp - sociedade h\u00EDpica paulista\\views\\login\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18DCB303-582F-4BB0-887F-68D7FFBD35FE}|SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista.csproj|d:\\shp - sociedade h\u00EDpica paulista\\shp - sociedade h\u00EDpica paulista\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18DCB303-582F-4BB0-887F-68D7FFBD35FE}|SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista.csproj|solutionrelative:shp - sociedade h\u00EDpica paulista\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18DCB303-582F-4BB0-887F-68D7FFBD35FE}|SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista.csproj|d:\\shp - sociedade h\u00EDpica paulista\\shp - sociedade h\u00EDpica paulista\\services\\loginservice\\ilogininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18DCB303-582F-4BB0-887F-68D7FFBD35FE}|SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista.csproj|solutionrelative:shp - sociedade h\u00EDpica paulista\\services\\loginservice\\ilogininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18DCB303-582F-4BB0-887F-68D7FFBD35FE}|SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista.csproj|d:\\shp - sociedade h\u00EDpica paulista\\shp - sociedade h\u00EDpica paulista\\services\\loginservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18DCB303-582F-4BB0-887F-68D7FFBD35FE}|SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista.csproj|solutionrelative:shp - sociedade h\u00EDpica paulista\\services\\loginservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Registrar.cshtml",
-              "DocumentMoniker": "D:\\SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista\\Views\\Login\\Registrar.cshtml",
-              "RelativeDocumentMoniker": "SHP - Sociedade H\u00EDpica Paulista\\Views\\Login\\Registrar.cshtml",
-              "ToolTip": "D:\\SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista\\Views\\Login\\Registrar.cshtml",
-              "RelativeToolTip": "SHP - Sociedade H\u00EDpica Paulista\\Views\\Login\\Registrar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-10T19:42:51.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "SHP - Sociedade H\u00EDpica Paulista\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "SHP - Sociedade H\u00EDpica Paulista\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwCsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T18:27:17.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "D:\\SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista\\Services\\LoginService\\LoginService.cs",
-              "RelativeDocumentMoniker": "SHP - Sociedade H\u00EDpica Paulista\\Services\\LoginService\\LoginService.cs",
-              "ToolTip": "D:\\SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista\\Services\\LoginService\\LoginService.cs",
-              "RelativeToolTip": "SHP - Sociedade H\u00EDpica Paulista\\Services\\LoginService\\LoginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T18:23:21.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ILoginInterface.cs",
-              "DocumentMoniker": "D:\\SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista\\Services\\LoginService\\ILoginInterface.cs",
-              "RelativeDocumentMoniker": "SHP - Sociedade H\u00EDpica Paulista\\Services\\LoginService\\ILoginInterface.cs",
-              "ToolTip": "D:\\SHP - Sociedade H\u00EDpica Paulista\\SHP - Sociedade H\u00EDpica Paulista\\Services\\LoginService\\ILoginInterface.cs",
-              "RelativeToolTip": "SHP - Sociedade H\u00EDpica Paulista\\Services\\LoginService\\ILoginInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T18:23:18.085Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
