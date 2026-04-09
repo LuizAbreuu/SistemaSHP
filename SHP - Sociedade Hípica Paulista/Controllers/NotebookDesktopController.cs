@@ -1,77 +1,61 @@
-﻿using ClosedXML.Excel;
+using ClosedXML.Excel;
 using Microsoft.AspNetCore.Mvc;
 using SHP___Sociedade_Hípica_Paulista.Data;
 using SHP___Sociedade_Hípica_Paulista.Models;
 using SHP___Sociedade_Hípica_Paulista.Services.NotebookDesktopService;
-using SHP___Sociedade_Hípica_Paulista.Services.SessaoService;
+using Microsoft.AspNetCore.Authorization;
+using SHP___Sociedade_Hípica_Paulista.Models.ViewModels;
 using System.Data;
 using System.Threading.Tasks;
 
 
 namespace SHP___Sociedade_Hípica_Paulista.Controllers
 {
+    [Authorize]
     public class NotebookDesktopController : Controller
     {
 
-        readonly private ISessaoInterface _sessaoInterface;
-        readonly private INotebookDesktopInterface _notebookDesktopInterface;
+        private readonly INotebookDesktopInterface _notebookDesktopInterface;
 
-        public NotebookDesktopController(INotebookDesktopInterface notebookDesktopInterface ,ISessaoInterface sessaoInterface)
+        public NotebookDesktopController(INotebookDesktopInterface notebookDesktopInterface)
         {
-            _sessaoInterface = sessaoInterface;
             _notebookDesktopInterface = notebookDesktopInterface;
         }
 
         public async Task<IActionResult> Index()
         {
-            var usuario = _sessaoInterface.BuscarSessao();
-            if (usuario == null)
-            {
-                return RedirectToAction("Login", "Login");
-            }
+
 
             var notebooksDesktops = await _notebookDesktopInterface.BuscarNotebookDesktop();
-
-            return View(notebooksDesktops.Dados);
+            var viewModels = notebooksDesktops.Dados?.Select(NotebookDesktopViewModel.FromModel).ToList() ?? new List<NotebookDesktopViewModel>();
+            return View(viewModels);
         }
 
         [HttpGet]
         public IActionResult Cadastrar()
         {
-            var usuario = _sessaoInterface.BuscarSessao();
-            if (usuario == null)
-            {
-                return RedirectToAction("Login", "Login");
-            }
+
             return View();
         }
 
         [HttpGet]
         public async Task<IActionResult> Editar(int? id)
         {
-            var usuario = _sessaoInterface.BuscarSessao();
-            if (usuario == null)
-            {
-                return RedirectToAction("Login", "Login");
-            }
+
 
             var notebooksDesktop = await _notebookDesktopInterface.BuscarNotebookDesktopPorId(id);
 
-            return View(notebooksDesktop.Dados);
+            return View(NotebookDesktopViewModel.FromModel(notebooksDesktop.Dados));
         }
 
         [HttpGet]
         public async Task<IActionResult> Excluir(int? id)
         {
-            var usuario = _sessaoInterface.BuscarSessao();
-            if (usuario == null)
-            {
-                return RedirectToAction("Login", "Login");
-            }
+
 
             var notebooksDesktop = await _notebookDesktopInterface.BuscarNotebookDesktopPorId(id);
 
-            return View(notebooksDesktop.Dados);
+            return View(NotebookDesktopViewModel.FromModel(notebooksDesktop.Dados));
         }
 
         public async Task<IActionResult> Exportar()
@@ -93,11 +77,11 @@ namespace SHP___Sociedade_Hípica_Paulista.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Cadastrar(Notebook_DesktopModel Notebook_Desktop)
+        public async Task<IActionResult> Cadastrar(NotebookDesktopViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
-
+                var Notebook_Desktop = NotebookDesktopViewModel.ToModel(viewModel);
                 var notebookDesktopResult = await _notebookDesktopInterface.CadastrarNotebookDesktop(Notebook_Desktop);
 
                 if (notebookDesktopResult.Status)
@@ -107,7 +91,7 @@ namespace SHP___Sociedade_Hípica_Paulista.Controllers
                 else
                 {
                     TempData["MensagemErro"] = notebookDesktopResult.Mensagem;
-                    return View(Notebook_Desktop);
+                    return View(viewModel);
                 }
 
                 return RedirectToAction("Index");
@@ -117,10 +101,11 @@ namespace SHP___Sociedade_Hípica_Paulista.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Editar(Notebook_DesktopModel Notebook_Desktop)
+        public async Task<IActionResult> Editar(NotebookDesktopViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
+                var Notebook_Desktop = NotebookDesktopViewModel.ToModel(viewModel);
                 var notebookDesktopResult = await _notebookDesktopInterface.EditarNotebookDesktop(Notebook_Desktop);
 
                 if(notebookDesktopResult.Status)
@@ -130,23 +115,24 @@ namespace SHP___Sociedade_Hípica_Paulista.Controllers
                 else
                 {
                     TempData["MensagemErro"] = notebookDesktopResult.Mensagem;
-                    return View(notebookDesktopResult);
+                    return View(viewModel);
                 }
 
                 return RedirectToAction("Index");
             }
-            return View(Notebook_Desktop);
+            return View(viewModel);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Excluir(Notebook_DesktopModel Notebook_Desktop)
+        public async Task<IActionResult> Excluir(NotebookDesktopViewModel viewModel)
         {
-            if (Notebook_Desktop == null)
+            if (viewModel == null)
             {
                 TempData["MensagemErro"] = "Notebook ou Desktop não localizado!";
                 return RedirectToAction("Index");
             }
 
+            var Notebook_Desktop = NotebookDesktopViewModel.ToModel(viewModel);
             var notebookDesktopResult = await _notebookDesktopInterface.RemoveNotebookDesktop(Notebook_Desktop);
 
             if(notebookDesktopResult.Status)
@@ -156,7 +142,7 @@ namespace SHP___Sociedade_Hípica_Paulista.Controllers
             else
             {
                 TempData["MensagemErro"] = notebookDesktopResult.Mensagem;
-                return View(Notebook_Desktop);
+                return View(viewModel);
             }
 
             return RedirectToAction("Index");

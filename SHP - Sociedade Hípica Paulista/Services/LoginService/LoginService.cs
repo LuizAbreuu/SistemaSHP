@@ -1,8 +1,8 @@
-﻿using SHP___Sociedade_Hípica_Paulista.Data;
+using SHP___Sociedade_Hípica_Paulista.Data;
 using SHP___Sociedade_Hípica_Paulista.Dto;
 using SHP___Sociedade_Hípica_Paulista.Models;
 using SHP___Sociedade_Hípica_Paulista.Services.SenhaService;
-using SHP___Sociedade_Hípica_Paulista.Services.SessaoService;
+
 
 namespace SHP___Sociedade_Hípica_Paulista.Services.LoginService
 {
@@ -11,12 +11,10 @@ namespace SHP___Sociedade_Hípica_Paulista.Services.LoginService
 
         private readonly ApplicationDbContext _context;
         private readonly ISenhaInterface _senhaInterface;
-        private readonly ISessaoInterface _sessaoInterface;
-        public LoginService(ApplicationDbContext context, ISenhaInterface senhaInterface, ISessaoInterface sessaoInterface)
+        public LoginService(ApplicationDbContext context, ISenhaInterface senhaInterface)
         {
             _context = context;
             _senhaInterface = senhaInterface;
-            _sessaoInterface = sessaoInterface;
         }
 
         public async Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDto usuarioLoginDto)
@@ -40,9 +38,8 @@ namespace SHP___Sociedade_Hípica_Paulista.Services.LoginService
                     return response;
                 }
 
-                //Criar sessão
-                _sessaoInterface.CriarSessao(usuario);
-
+                // Sessão será criada via Cookie Auth no LoginController
+                response.Dados = usuario;
                 response.Mensagem = "Usuário logado com sucesso!";
                 return response;
             }

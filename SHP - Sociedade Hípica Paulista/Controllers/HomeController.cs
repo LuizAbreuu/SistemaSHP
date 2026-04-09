@@ -1,9 +1,11 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SHP___Sociedade_Hípica_Paulista.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SHP___Sociedade_Hípica_Paulista.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

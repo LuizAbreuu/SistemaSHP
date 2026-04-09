@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using SHP___Sociedade_Hípica_Paulista.Dto;
 using SHP___Sociedade_Hípica_Paulista.Services.LoginService;
-using SHP___Sociedade_Hípica_Paulista.Services.SessaoService;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Threading.Tasks;
 
 namespace SHP___Sociedade_Hípica_Paulista.Controllers
@@ -9,26 +11,23 @@ namespace SHP___Sociedade_Hípica_Paulista.Controllers
     public class LoginController : Controller
     {
         private readonly ILoginInterface _loginInterface;
-        private readonly ISessaoInterface _sessaoInterface;
-        public LoginController(ILoginInterface loginInterface, ISessaoInterface sessaoInterface)
+        public LoginController(ILoginInterface loginInterface)
         {
             _loginInterface = loginInterface;
-            _sessaoInterface = sessaoInterface;
         }
 
         public IActionResult Login()
         {
-            var usuario = _sessaoInterface.BuscarSessao();
-            if (usuario != null)
+            if (User.Identity.IsAuthenticated)
             {
                 return RedirectToAction("Index", "Home");
             }
             return View();
         }
 
-        public IActionResult Logout()
+        public async Task<IActionResult> Logout()
         {
-            _sessaoInterface.RemoveSessao();
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login");
         }
 
@@ -71,8 +70,20 @@ namespace SHP___Sociedade_Hípica_Paulista.Controllers
             {
 
                 var usuario = await _loginInterface.Login(usuarioLoginDto);
-                if (usuario.Status)
+                if (usuario.Status && usuario.Dados != null)
                 {
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.NameIdentifier, usuario.Dados.Id.ToString()),
+                        new Claim(ClaimTypes.Name, usuario.Dados.Nome),
+                        new Claim(ClaimTypes.Email, usuario.Dados.Email)
+                    };
+
+                    var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var principal = new ClaimsPrincipal(identity);
+
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+
                     TempData["MensagemSucesso"] = usuario.Mensagem;
                     return RedirectToAction("Index", "Home");
                 }
