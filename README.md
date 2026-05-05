@@ -1,4 +1,4 @@
-# 💻 Sistema SHP - Gestão de Equipamentos (Service Desk)
+# 💻 Sistema SHP - Gestão de Equipamentos 
 
 [![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white)](#)
 [![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-MVC-blue?logo=dotnet)](#)
