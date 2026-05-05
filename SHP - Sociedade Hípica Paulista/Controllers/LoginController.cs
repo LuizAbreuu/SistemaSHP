@@ -1,82 +1,41 @@
-using Microsoft.AspNetCore.Mvc;
-using SHP___Sociedade_Hípica_Paulista.Dto;
-using SHP___Sociedade_Hípica_Paulista.Services.LoginService;
-using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Mvc;
+using SistemaSHP.Application.DTOs;
+using SistemaSHP.Application.Interfaces;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace SHP___Sociedade_Hípica_Paulista.Controllers
 {
     public class LoginController : Controller
     {
-        private readonly ILoginInterface _loginInterface;
-        public LoginController(ILoginInterface loginInterface)
+        private readonly ILoginInterface _loginService;
+
+        public LoginController(ILoginInterface loginService)
         {
-            _loginInterface = loginInterface;
+            _loginService = loginService;
         }
 
+        [HttpGet]
         public IActionResult Login()
         {
-            if (User.Identity.IsAuthenticated)
-            {
-                return RedirectToAction("Index", "Home");
-            }
-            return View();
-        }
-
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Login");
-        }
-
-        public IActionResult Registrar()
-        {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Registrar(UsuarioRegisterDto usuarioRegisterDto)
+        public async Task<IActionResult> Login(LoginRequest request)
         {
             if (ModelState.IsValid)
             {
-                var usuario = await _loginInterface.RegistrarUsuario(usuarioRegisterDto);
+                var sucesso = await _loginService.Login(request);
 
-                if (usuario.Status)
+                if (sucesso)
                 {
-                    TempData["MensagemSucesso"] = usuario.Mensagem;
-
-                }
-                else
-                {
-                    TempData["MensagemErro"] = usuario.Mensagem;
-                    return View(usuarioRegisterDto);
-                }
-
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                return View(usuarioRegisterDto);
-            }
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Login(UsuarioLoginDto usuarioLoginDto)
-        {
-
-            if (ModelState.IsValid)
-            {
-
-                var usuario = await _loginInterface.Login(usuarioLoginDto);
-                if (usuario.Status && usuario.Dados != null)
-                {
-                    var claims = new List<Claim>
+                    var claims = new System.Collections.Generic.List<Claim>
                     {
-                        new Claim(ClaimTypes.NameIdentifier, usuario.Dados.Id.ToString()),
-                        new Claim(ClaimTypes.Name, usuario.Dados.Nome),
-                        new Claim(ClaimTypes.Email, usuario.Dados.Email)
+                        new Claim(ClaimTypes.Name, request.Email),
+                        new Claim(ClaimTypes.Email, request.Email)
                     };
 
                     var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -84,19 +43,44 @@ namespace SHP___Sociedade_Hípica_Paulista.Controllers
 
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
-                    TempData["MensagemSucesso"] = usuario.Mensagem;
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "NotebookDesktop");
                 }
-                else
-                {
-                    TempData["MensagemErro"] = usuario.Mensagem;
-                    return View(usuarioLoginDto);
-                }
+                
+                TempData["MensagemErro"] = "Email ou senha incorretos!";
             }
-            else 
+            
+            return View(request);
+        }
+
+        [HttpGet]
+        public IActionResult Registrar()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Registrar(UsuarioRegisterDto request)
+        {
+            if (ModelState.IsValid)
             {
-                return View(usuarioLoginDto);
+                var resultado = await _loginService.RegistrarUsuario(request);
+
+                if (resultado.Status)
+                {
+                    TempData["MensagemSucesso"] = resultado.Mensagem;
+                    return RedirectToAction("Login");
+                }
+                
+                TempData["MensagemErro"] = resultado.Mensagem;
             }
+            return View(request);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login");
         }
     }
 }

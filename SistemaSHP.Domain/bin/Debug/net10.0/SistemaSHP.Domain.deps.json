@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SistemaSHP.Domain/1.0.0": {
+        "dependencies": {
+          "WireMock.Net.Abstractions": "2.5.0"
+        },
+        "runtime": {
+          "SistemaSHP.Domain.dll": {}
+        }
+      },
+      "WireMock.Net.Abstractions/2.5.0": {
+        "runtime": {
+          "lib/net8.0/WireMock.Net.Abstractions.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaSHP.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WireMock.Net.Abstractions/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K07GWI4oZsSrbSS3q/07Ub2ntwT64BoAK/312DYR7HD6DzTaHNShkD2AdIUIRcNxIZio9X7ICO8MS+357T33NQ==",
+      "path": "wiremock.net.abstractions/2.5.0",
+      "hashPath": "wiremock.net.abstractions.2.5.0.nupkg.sha512"
+    }
+  }
+}

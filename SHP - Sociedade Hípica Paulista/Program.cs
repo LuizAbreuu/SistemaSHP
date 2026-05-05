@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using SHP___Sociedade_Hípica_Paulista.Data;
-using SHP___Sociedade_Hípica_Paulista.Services.LoginService;
-using SHP___Sociedade_Hípica_Paulista.Services.NotebookDesktopService;
-using SHP___Sociedade_Hípica_Paulista.Services.SenhaService;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using SistemaSHP.Infrastructure.Data;
+using SistemaSHP.Infrastructure.Repositories;
+using SistemaSHP.Application.Interfaces;
+using SistemaSHP.Application.Services.LoginService;
+using SistemaSHP.Application.Services.NotebookDesktopService;
+using SistemaSHP.Application.Services.SenhaService;
+using SistemaSHP.Domain.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,10 +17,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+// Repositories
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<INotebookDesktopRepository, NotebookDesktopRepository>();
+
+// Services
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ILoginInterface, LoginService>();
 builder.Services.AddScoped<ISenhaInterface, SenhaService>();
 builder.Services.AddScoped<INotebookDesktopInterface, NotebookDesktopService>();
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
@@ -27,9 +35,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.Cookie.IsEssential = true;
     });
 
-
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

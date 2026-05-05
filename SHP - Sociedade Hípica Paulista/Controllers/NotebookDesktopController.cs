@@ -1,14 +1,15 @@
 using ClosedXML.Excel;
 using Microsoft.AspNetCore.Mvc;
-using SHP___Sociedade_Hípica_Paulista.Data;
-using SHP___Sociedade_Hípica_Paulista.Models;
-using SHP___Sociedade_Hípica_Paulista.Services.NotebookDesktopService;
+using SistemaSHP.Infrastructure.Data;
+using SistemaSHP.Domain.Entities;
+using SistemaSHP.Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
-using SHP___Sociedade_Hípica_Paulista.Models.ViewModels;
+using SistemaSHP.Domain.Entities.ViewModels;
 using System.Data;
 using System.Threading.Tasks;
-
-
+using System.Linq;
+using System.Collections.Generic;
+using System.IO;
 namespace SHP___Sociedade_Hípica_Paulista.Controllers
 {
     [Authorize]

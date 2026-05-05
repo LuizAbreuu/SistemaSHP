@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3ghXxS7gN/U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luiz_\\Downloads\\SistemaSHP\\SistemaSHP\\SistemaSHP.Domain\\SistemaSHP.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luiz_\\.nuget\\packages\\wiremock.net.abstractions\\2.5.0\\wiremock.net.abstractions.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

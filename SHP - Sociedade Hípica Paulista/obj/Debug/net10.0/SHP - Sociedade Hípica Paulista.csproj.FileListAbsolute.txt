@@ -1,0 +1,239 @@
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.csproj.AssemblyReference.cache
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.AssemblyInfoInputs.cache
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.AssemblyInfo.cs
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.csproj.CoreCompileInputs.cache
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.RazorAssemblyInfo.cache
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.RazorAssemblyInfo.cs
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.sourcelink.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\appsettings.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SHP - Sociedade Hípica Paulista.staticwebassets.runtime.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SHP - Sociedade Hípica Paulista.staticwebassets.endpoints.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SHP - Sociedade Hípica Paulista.exe
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SHP - Sociedade Hípica Paulista.deps.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SHP - Sociedade Hípica Paulista.runtimeconfig.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SHP - Sociedade Hípica Paulista.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SHP - Sociedade Hípica Paulista.pdb
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ClosedXML.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ClosedXML.Parser.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ExcelNumberFormat.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Humanizer.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\RBush.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SixLabors.Fonts.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.IO.Packaging.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\WireMock.Net.Abstractions.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SistemaSHP.Application.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SistemaSHP.Domain.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SistemaSHP.Infrastructure.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SistemaSHP.Application.pdb
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SistemaSHP.Infrastructure.pdb
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\bin\Debug\net10.0\SistemaSHP.Domain.pdb
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\scopedcss\bundle\SHP - Sociedade Hípica Paulista.styles.css
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\scopedcss\projectbundle\SHP - Sociedade Hípica Paulista.bundle.scp.css
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\0ubmofx8em-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\uj8l6cufwc-{0}-5pze98is44-5pze98is44.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\x1o8vrdrsc-{0}-ehgnz7f14e-ehgnz7f14e.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\mwdscldgbw-{0}-7s2n0ol71w-7s2n0ol71w.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\v7ylxewozs-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\yqb18i1k4f-{0}-l1zq2mitth-l1zq2mitth.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\lw8dtxbzyn-{0}-6d0lkjaslc-6d0lkjaslc.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\4kxdks97wv-{0}-9oaff4kq20-9oaff4kq20.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\ukdkz01sxe-{0}-ay5nd8zt9x-ay5nd8zt9x.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\4v745bufa8-{0}-356vix0kms-356vix0kms.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\80zj6765ly-{0}-48y08845bh-48y08845bh.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\2x7tek7oxk-{0}-03hjc8e09r-03hjc8e09r.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\ztdglcgda6-{0}-u33ctipx7g-u33ctipx7g.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\p6zoetfi4i-{0}-4908xmbfjr-4908xmbfjr.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\4roiifecpn-{0}-6ukhryfubh-6ukhryfubh.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\tlegt7adtu-{0}-1piudyfv7h-1piudyfv7h.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\34dllsx424-{0}-wsezl0heh6-wsezl0heh6.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\y0s10kblqw-{0}-jqwzsa9uv6-jqwzsa9uv6.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\v9de27v9pu-{0}-2lgwfvgpvi-2lgwfvgpvi.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\wvml16zo48-{0}-n5w6o92d9r-n5w6o92d9r.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\l61ksymq71-{0}-c2nslu3uf3-c2nslu3uf3.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\fidlramkdw-{0}-89qbw8ngem-89qbw8ngem.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\zj1rvjun8q-{0}-kbynt5jhd9-kbynt5jhd9.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\vddcaobec4-{0}-f6zq8v6eb3-f6zq8v6eb3.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\83f5t6eshr-{0}-fctod5rc9n-fctod5rc9n.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\252om9s2fx-{0}-6l4ir0ityv-6l4ir0ityv.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\sivms7knh2-{0}-4gxs3k148c-4gxs3k148c.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\ewiwin765l-{0}-gjcw7pocpk-gjcw7pocpk.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\fuh6lf3jhe-{0}-8inm30yfxf-8inm30yfxf.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\8v332qrybp-{0}-6gzpyzhau4-6gzpyzhau4.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\ejgjxr5p1b-{0}-73kdqttayv-73kdqttayv.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\ruhfdgdli1-{0}-ozu22stjof-ozu22stjof.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\ie83j9dxl7-{0}-56d2bn4wt9-56d2bn4wt9.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\4lr94m2izx-{0}-ik6i2hrs65-ik6i2hrs65.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\jsanacn66n-{0}-ab1c3rmv7g-ab1c3rmv7g.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\44jgg4od5n-{0}-ophe14yye5-ophe14yye5.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\bq51h089cr-{0}-vy0bq9ydhf-vy0bq9ydhf.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\y6dsoafhbx-{0}-2yn17lgxub-2yn17lgxub.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\nkypybv7r7-{0}-j75batdsum-j75batdsum.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\xt8q2r322y-{0}-z9shlbduue-z9shlbduue.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\h6raoj034m-{0}-wmug9u23qg-wmug9u23qg.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\32azd2lwa7-{0}-y53cy5s2zj-y53cy5s2zj.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\d4mw6p7c08-{0}-cwzlr5n8x4-cwzlr5n8x4.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\1dzph8ln98-{0}-97yrjpyf9r-97yrjpyf9r.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\r0wv9rcfk9-{0}-okkk44j0xs-okkk44j0xs.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\2ivm23g6mq-{0}-z7kmom2977-z7kmom2977.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\m1z9s17ce4-{0}-jeal3x0ldm-jeal3x0ldm.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\559qd3a08w-{0}-mk8rdyw69w-mk8rdyw69w.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\dr6881am4l-{0}-o371a8zbv2-o371a8zbv2.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\zv0nn9061x-{0}-dy6jgresuo-dy6jgresuo.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\0rly9tuhn5-{0}-2q4vfeazbq-2q4vfeazbq.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\ydk5o6dhej-{0}-e6q6xbwqzk-e6q6xbwqzk.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\s6pxh3qgax-{0}-5vj65cig9w-5vj65cig9w.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\b0v74kr4cr-{0}-5p029spbuu-5p029spbuu.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\o5u2bkaoiz-{0}-st1cbwfwo5-st1cbwfwo5.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\hhmui8hjmf-{0}-nakmwdwsxp-nakmwdwsxp.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\7f0grpicjx-{0}-tufuuzkte2-tufuuzkte2.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\mpsslyr4g1-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\bph2vj083b-{0}-c2tiyv64ts-c2tiyv64ts.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\41dtl9clpw-{0}-ex7t6nisn4-ex7t6nisn4.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\2zo8w1zvlt-{0}-s099kvj3rd-s099kvj3rd.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\compressed\sm8fmqwjs6-{0}-s099kvj3rd-s099kvj3rd.gz
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - So.646A9B04.Up2Date
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\refint\SHP - Sociedade Hípica Paulista.dll
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.pdb
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\SHP - Sociedade Hípica Paulista.genruntimeconfig.cache
+C:\Users\luiz_\Downloads\SistemaSHP\SistemaSHP\SHP - Sociedade Hípica Paulista\obj\Debug\net10.0\ref\SHP - Sociedade Hípica Paulista.dll

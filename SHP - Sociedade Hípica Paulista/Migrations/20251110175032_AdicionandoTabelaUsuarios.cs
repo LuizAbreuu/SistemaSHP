@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace SHP___Sociedade_Hípica_Paulista.Migrations
+namespace SHP___Sociedade_H�pica_Paulista.Migrations
 {
     /// <inheritdoc />
     public partial class AdicionandoTabelaUsuarios : Migration
