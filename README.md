@@ -1,107 +1,118 @@
-<<<<<<< HEAD
-# 💻 Sistema de Controle SHP - Computadores e Notebooks
+# 💻 Sistema SHP - Gestão de Equipamentos (Service Desk)
 
-Um sistema construído em arquitetura web corporativa para realizar o gerenciamento de inventário ágil de **Notebooks e Desktops** alocados aos usuários, integrando segurança local e permitindo fáceis exportações analíticas ou auditorias (via relatórios Excel). 
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white)](#)
+[![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-MVC-blue?logo=dotnet)](#)
+[![Entity Framework](https://img.shields.io/badge/Entity%20Framework-Core-3dbbcf?logo=nuget)](#)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-CC2927?logo=microsoftsqlserver&logoColor=white)](#)
 
-Atuando sob um padrão sólido e separação rigorosa de instâncias, o projeto garante forte controle a administradores e manutenções simplificadas.
+O **Sistema SHP** (Sociedade Hípica Paulista) é uma plataforma web desenvolvida para substituir controles manuais (como planilhas Excel) no gerenciamento de inventário de equipamentos de TI, especificamente notebooks e desktops. 
 
----
-
-## 🛠️ Tecnologias e Tecnologias-Chave
-
-O sistema acompanha as atualizações de estabilidade recomendadas pela Microsoft utilizando majoritariamente a plataforma do **.NET 8**:
-
-- **Framework Web**: `ASP.NET Core 8.0` (Arquitetura Padrão MVC)
-- **Linguagem Principal**: `C#` (C-Sharp)
-- **Persistência de Dados**: `Entity Framework Core 8.x` (Abordagem Code-First)
-- **Banco de Dados**: `Microsoft SQL Server`
-- **Autenticação**: Nativa/Embutida usando *Cookies* (`Microsoft.AspNetCore.Authentication.Cookies`), protegendo as rotas da aplicação via `[Authorize]`.
-- **Relatórios**: Biblioteca `ClosedXML` permitindo que a exibição em tela seja baixada para relatórios consolidados em Excel `.xlsx`.
-- **Injeção de Dependência da Camada**: Nativa do framework mantendo escopos limpos (`AddScoped`, `AddSingleton`, etc).
-- **Criptografia Padrão**: Hash + Salt gerados via arrays de Bytes isolados impedindo que senhas de contas flutuem claras dentro do Banco.
+O sistema oferece uma solução robusta, segura e centralizada, garantindo a persistência dos dados em um banco de dados relacional (SQL Server) e facilitando a gestão, rastreabilidade e exportação de dados.
 
 ---
 
-## 🧩 Arquitetura e Boas Práticas Implementadas
+## ✨ Funcionalidades
 
-O projeto obedece extensivamente aos princípios **SOLID**, focando estritamente em *Inversão de Dependências (D)* e *Responsabilidade Única (S)* que criaram as camadas do software:
+- **Autenticação e Segurança:** Sistema de login com criptografia de senhas (Hash/Salt) e controle de sessão seguro via Cookies.
+- **Gestão de Equipamentos:** Cadastro, edição, exclusão e visualização (CRUD) detalhada de notebooks e desktops.
+- **Auditoria e Relatórios:** Exportação dos dados de equipamentos diretamente para relatórios consolidados em Excel `.xlsx` (utilizando a biblioteca ClosedXML).
+- **Interface Responsiva:** Design amigável e adaptável, com tabelas interativas e suporte a dispositivos variados.
+- **Prevenção de Perda de Dados:** Substituição de planilhas voláteis por um banco de dados estruturado e persistente.
 
-1. **Camada de Apresentação (Controllers & Views)**
-   Responsável somente por interceptar HTTP *(GET/POST)*, acionar quem processará a informação e repassar para a tela (*Razor `cshtml`*). Os Controllers são enxutos e seguros.
-   
-2. **Camada de Transferência (ViewModels e DTOs)**
-   Para evitar vazamentos de estrutura técnica de persistência para as telas do usuário final (over-posting / under-posting), adotamos a separação usando objetos como o `NotebookDesktopViewModel`. Neles residem unicamente as diretivas limitadoras das View (`[Required]`, etc).
-   
-3. **Camada de Serviço Core (Services & Interfaces)**
-   Toda regra de negócios, hashings ou processamento pesado acontece isoladamente aqui (Ex: `NotebookDesktopService` e `SenhaService`), sendo que o Controlador interage apenas com a "promessa" dessa camada (suas respectivas `Interfaces`).
-   
-4. **Camada de Persistência (Data / EF Core DbContext)**
-   Condução limpa e direta do Modelo Entity Framework e sua gerência de dados (`Models/Notebook_DesktopModel`).
+---
+
+## 🏗️ Arquitetura do Projeto (Clean Architecture)
+
+O projeto foi construído utilizando os princípios de **Clean Architecture (Arquitetura Limpa)** e **SOLID**, garantindo baixo acoplamento, alta coesão e facilidade de manutenção. A solução está dividida nas seguintes camadas:
+
+1. **`SistemaSHP.Domain` (Camada de Domínio)**
+   - Coração da aplicação. Contém as entidades de negócio (ex: `Notebook_DesktopModel`, `Usuario`) e as interfaces dos repositórios. Não depende de nenhuma outra camada.
+
+2. **`SistemaSHP.Application` (Camada de Aplicação)**
+   - Contém a lógica de negócio e os casos de uso (Services: `LoginService`, `NotebookDesktopService`, `SenhaService`). Faz a ponte entre a apresentação e o domínio.
+
+3. **`SistemaSHP.Infrastructure` (Camada de Infraestrutura)**
+   - Responsável pela comunicação com agentes externos (Banco de Dados). Contém o contexto do Entity Framework (`ApplicationDbContext`) e a implementação dos repositórios de dados.
+
+4. **`SHP - Sociedade Hípica Paulista` (Camada de Apresentação / UI)**
+   - O projeto Web em **ASP.NET Core MVC**. Responsável apenas por interceptar requisições HTTP, delegar o processamento para a camada de Aplicação e retornar as Views (telas Razor) ao usuário.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+- **Backend:** C#, .NET 8.0, ASP.NET Core MVC
+- **Banco de Dados:** Microsoft SQL Server
+- **ORM:** Entity Framework Core 8 (Code-First)
+- **Segurança:** Autenticação por Cookies (`Microsoft.AspNetCore.Authentication.Cookies`)
+- **Utilitários:** `ClosedXML` (para geração de arquivos Excel)
+- **Frontend:** Razor Pages (HTML, CSS, JavaScript), Bootstrap (para responsividade)
+
+---
+
+## 📁 Estrutura de Diretórios
+
+```plaintext
+SistemaSHP/
+│
+├── SistemaSHP.Domain/              # Entidades, Interfaces de Repositório
+├── SistemaSHP.Application/         # Regras de Negócio (Services), DTOs, ViewModels
+├── SistemaSHP.Infrastructure/      # DbContext, Repositórios, Migrations
+└── SHP - Sociedade Hípica Paulista/ # Projeto Web MVC (Controllers, Views, wwwroot)
+```
 
 ---
 
 ## ⚙️ Pré-Requisitos
 
-Antes de iniciar você precisará das seguintes ferramentas:
+Antes de iniciar, você precisará ter instalado em sua máquina:
 
-1. [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-2. Carga instalada do **SQL Server** (seja _Express_, _Developer_, ou o _LocalDB_ atrelado pelo Visual Studio).
-3. Ferramentas do Entity Framework Global CLI (Pode ser instalado via `dotnet tool install --global dotnet-ef`).
+1. [SDK do .NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+2. [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads) (Express, Developer ou LocalDB)
+3. Uma IDE de sua preferência ([Visual Studio 2022](https://visualstudio.microsoft.com/pt-br/) recomendado, ou VS Code).
+4. Ferramenta CLI do Entity Framework (Instale via: `dotnet tool install --global dotnet-ef`)
 
 ---
 
-## 🚀 Como Iniciar e Rodar a Aplicação
+## 🚀 Como Executar o Projeto Localmente
 
-Siga o passo-a-passo local para testar essa plataforma e acopla-la ao seu SQL local.
+1. **Clone o repositório:**
+   ```bash
+   git clone git@github.com:LuizAbreuu/SistemaSHP.git
+   cd SistemaSHP/SistemaSHP
+   ```
 
-1. **Clonar ou posicionar a Solução:**
-   Abra os arquivos em um ambiente de desenvolvimento limpo utilizando sua IDE preferida. O projeto foi primariamente testado na plataforma Microsoft Visual Studio.
-   
-2. **Setup do AppSettings (User Secrets ou AppSettings.json)**
-   Verifique no seu `appsettings.json`, no interior do diretório primário, sua string de conexão:
+2. **Configuração do Banco de Dados (`appsettings.json`):**
+   No projeto de Apresentação (`SHP - Sociedade Hípica Paulista`), localize ou crie o arquivo `appsettings.json` e configure a string de conexão `DefaultConnection` para o seu servidor SQL:
    ```json
    "ConnectionStrings": {
-     "DefaultConnection": "server=NOME_DO_SEU_SERVIDOR_AQUI; Database=Notebook_Desktops; Integrated Security=True;Encrypt=True;TrustServerCertificate=True"
+     "DefaultConnection": "Server=SEU_SERVIDOR; Database=BancoDBContext; Integrated Security=True; Encrypt=True; TrustServerCertificate=True"
    }
    ```
-   > 💡 *Nota*: É extremamente recomendado que em produção as senhas das ConnectionStrings sejam escondidas preferencialmente em variáveis da SO ou recursos do gerenciador de Cloud.
 
-3. **Gerar a Estrutura do Banco SQL**:
-   Navegue no console ou PowerShell até a raiz interna do projeto (`cd SHP - Sociedade Hípica Paulista`). Atualize/Gere tabelas rodando:
+3. **Criação do Banco de Dados (Migrations):**
+   Abra o **Package Manager Console** (Visual Studio) ou o terminal na pasta do projeto principal e rode o comando para gerar o banco:
+   
+   - *Via Package Manager Console:*
+     ```powershell
+     Update-Database
+     ```
+   - *Via .NET CLI:*
+     ```bash
+     dotnet ef database update --project SistemaSHP.Infrastructure --startup-project "SHP - Sociedade Hípica Paulista"
+     ```
+
+4. **Executando a Aplicação:**
+   Aperte `F5` no Visual Studio ou execute via terminal na pasta web:
    ```bash
-   dotnet ef database update
+   dotnet run --project "SHP - Sociedade Hípica Paulista"
    ```
 
-4. **Rodar Aplicação**:
-   Pode ser perfeitamente executada e acessada apertando F5 em seu visual studio ou no terminal rodando localmente a rede via web:
-   ```bash
-   dotnet run
-   ```
-=======
-SHP - SOCIEDADE HÍPICA PAULISTA 
+5. **Primeiro Acesso:**
+   A aplicação será iniciada na página de Login. Para acessar, clique em **Cadastre-se**, crie um usuário teste e depois faça o login no sistema.
 
-Este sistema está sendo criado com o intuito de substituirmos uma planilha em excel, onde temos uma base de dados sobre nossos equipamentos dentro da empresa, a ideia é que com esse sistema, não será preciso se preocupar em salvar ou não a planilha pois tudo é salvo dentro de um banco de dados (SQL Server).  
+---
 
+## 🤝 Sobre o Projeto
 
-## Rodando localmente
-
-Clone o projeto
-
-```bash
-  git clone git@github.com:LuizAbreuu/SistemaSHP.git
-```
-
-Configurações para rodar a aplicação;
-Configurar as informações do banco de dados no appsettings.json, colocando o nome da Database e as informações do seu banco de dados SQL “DefaultConnection”.
-
-no Visual Studio precisa ir na aba tools e abrir o Package Manager Console, colocando o comando Update-Database -Context BancoDBContext Que o banco de dados vai ser criado no SQL.
-
-Para logar no sistema tem que criar um usuario, mas para isso basta rodar o projeto e fazer um cadastro no botão cadastre-se( por enquanto sem muitas regras de criação de cadastro)
-
-## Stack utilizada
-
-**Front-end:** ASP.NET MVC
-
-**Back-end:** ASP.NET MVC
-
->>>>>>> 3f08b921be822f9ec7f141a38a851a646ebf4833
+Desenvolvido para atender às necessidades de inventário da **Sociedade Hípica Paulista**, garantindo confiabilidade, segurança e agilidade no controle dos equipamentos da empresa.
